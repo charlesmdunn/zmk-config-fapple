@@ -1,0 +1,6 @@
+if SHIELD_FAPPLE
+
+config ZMK_KEYBOARD_NAME
+	default "fapple"
+	
+endif
