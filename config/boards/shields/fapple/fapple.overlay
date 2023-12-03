@@ -38,7 +38,7 @@ RC(4,9)	RC(8,6)	RC(7,8)	RC(2,11)	RC(8,5)	RC(2,9)	RC(7,7)	RC(6,9)	RC(9,7)	RC(10,1
 			, <&blackpill 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 			, <&blackpill 31 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>	
 			, <&blackpill 17 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-			, <&blackpill 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			, <&blackpill 26 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 			, <&blackpill 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 			, <&blackpill 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
