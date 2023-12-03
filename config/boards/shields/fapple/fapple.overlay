@@ -9,11 +9,15 @@
 
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
-        columns = <2>;
-        rows = <2>;
+        columns = <12>;
+        rows = <13>;
         map = <
-RC(0,0) RC(0,1)
-RC(1,0) RC(1,1)
+			RC(1,11)	RC(0,10)	RC(1,10)	RC(2,10)	RC(5,10)	RC(6,10)	RC(11,10)	RC(9,10)	RC(10,10)	RC(12,10)	RC(8,11)	RC(0,11)	RC(0,7)	RC(10,7)
+			RC(0,0)	RC(1,0)	RC(2,0)	RC(5,0)	RC(6,0)	RC(11,0)	RC(9,0)	RC(10,0)	RC(12,0)	RC(7,11)	RC(6,11)	RC(11,7)	RC(5,9)	RC(0,9)
+			RC(1,9)	RC(0,4)	RC(1,1)	RC(2,5)	RC(5,1)	RC(6,4)	RC(11,4)	RC(9,4)	RC(10,4)	RC(12,4)	RC(4,11)	RC(5,7)	RC(6,7)	RC(3,11)
+			RC(4,0)	RC(0,6)	RC(1,2)	RC(2,3)	RC(5,6)	RC(6,2)	RC(11,6)	RC(9,6)	RC(10,6)	RC(12,6)	RC(9,11)	RC(9,9)	RC(12,11)	
+			RC(3,4)	RC(0,8)	RC(1,8)	RC(2,8)	RC(5,3)	RC(6,3)	RC(11,8)	RC(9,8)	RC(10,8)	RC(12,8)	RC(11,11)	RC(5,11)		RC(2,9)
+			RC(4,9)	RC(8,6)	RC(7,8)	RC(2,11)	RC(8,5)			RC(2,9)	RC(7,7)	RC(6,9)	RC(9,7)	RC(10,11)	RC(10,9)	RC(12,7)
         >;
     };
 
@@ -24,13 +28,34 @@ RC(1,0) RC(1,1)
         diode-direction = "col2row";
 
         row-gpios
-            = <&blackpill 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&blackpill 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+            = <&blackpill 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			, <&blackpill 46 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			, <&blackpill 42 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			, <&blackpill 45 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			, <&blackpill 43 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			, <&blackpill 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			, <&blackpill 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			, <&blackpill 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			, <&blackpill 31 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>	
+			, <&blackpill 17 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			, <&blackpill 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			, <&blackpill 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			, <&blackpill 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
 
         col-gpios
-            = <&blackpill 13 GPIO_ACTIVE_HIGH>
-            , <&blackpill 12 GPIO_ACTIVE_HIGH>
+            = <&blackpill 3 GPIO_ACTIVE_HIGH>
+			, <&blackpill 2 GPIO_ACTIVE_HIGH>
+			, <&blackpill 11 GPIO_ACTIVE_HIGH>
+			, <&blackpill 40 GPIO_ACTIVE_HIGH>
+			, <&blackpill 12 GPIO_ACTIVE_HIGH>
+			, <&blackpill 39 GPIO_ACTIVE_HIGH>
+			, <&blackpill 38 GPIO_ACTIVE_HIGH>
+			, <&blackpill 14 GPIO_ACTIVE_HIGH>
+			, <&blackpill 33 GPIO_ACTIVE_HIGH>
+			, <&blackpill 32 GPIO_ACTIVE_HIGH>
+			, <&blackpill 30 GPIO_ACTIVE_HIGH>
+			, <&blackpill 18 GPIO_ACTIVE_HIGH>
             ;
     };
 };
