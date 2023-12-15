@@ -27,10 +27,10 @@ RC(4,9)	RC(8,6)	RC(7,8)	RC(2,11)	RC(8,5)			RC(13,11)	RC(7,7)	RC(6,9)	RC(9,7)	RC(
         label = "KSCAN";
         diode-direction = "col2row";
 
-        row-gpios
-            = <&blackpill 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+       row-gpios
+            = <&blackpill 27 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 			, <&blackpill 28 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-			, <&blackpill 26 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+			, <&blackpill 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 			, <&blackpill 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 			, <&blackpill 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
 			, <&blackpill 39 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
@@ -45,8 +45,8 @@ RC(4,9)	RC(8,6)	RC(7,8)	RC(2,11)	RC(8,5)			RC(13,11)	RC(7,7)	RC(6,9)	RC(9,7)	RC(
             ;
 
         col-gpios
-            = <&blackpill 12 GPIO_ACTIVE_HIGH>
-			, <&blackpill 27 GPIO_ACTIVE_HIGH>
+            = <&blackpill 26 GPIO_ACTIVE_HIGH>
+			, <&blackpill 11 GPIO_ACTIVE_HIGH>
 			, <&blackpill 3 GPIO_ACTIVE_HIGH>
 			, <&blackpill 13 GPIO_ACTIVE_HIGH>
 			, <&blackpill 38 GPIO_ACTIVE_HIGH>
