@@ -18,14 +18,14 @@
 &kp TAB	&kp Q	&kp W	&kp E	&kp R	&kp T	&kp Y	&kp U	&kp I	&kp O	&kp P	&kp DOT	&kp ESC	&kp ENTER
 &kp LCTRL	&kp A	&kp S	&kp D	&kp F	&kp G	&kp H	&kp J	&kp K	&kp L	&kp BACKSPACE	&none	&kp DELETE	
 &mo 2	&kp Z	&kp X	&kp C	&kp V	&kp B	&kp N	&kp M	&kp COMMA	&mkp LCLK	&mkp RCLK	&none		&kp F13
-&kp CAPS	&kp LALT	&kp LGUI	&kp SEMI	&lt 3 SPACE			 &mo 1	&kp ENTER	&none	&none	&kp RCTRL	&kp RALT	&kp DELETE
+&kp CAPS	&kp LALT	&kp LGUI	&kp SEMI	&lt 3 SPACE			 &mo 1	&kp ENTER	&none	&none	&kp LCTRL	&kp LALT	&kp DELETE
             >;
         };
         
         shift_layer {
             bindings = <
 &kp ESC	&kp F1	&kp F2	&kp F3	&kp F4	&kp F5	&kp F6	&kp F7	&kp F8	&kp F9	&kp F10	 &kp F11	&kp F12		&kp HOME
-&kp QMARK	&kp PIPE	&kp TILDE	&kp DQT	&kp HASH	&kp GRAVE	&kp LBRC	&kp RBRC	&kp FSLH	&kp BSLH	&kp PLUS	&kp PRCNT	&none	&kp BACKSPACE
+&kp QMARK	&kp LT	&kp GT	&kp DQT	&kp PIPE	&kp HASH	&kp LBRC	&kp RBRC	&kp FSLH	&kp BSLH	&kp PLUS	&kp PRCNT	&kp GRAVE	&kp BACKSPACE
 &kp TAB	&kp LS(Q)	&kp LS(W)	&kp LS(E)	&kp LS(R)	&kp LS(T)	&kp LS(Y)	&kp LS(U)	&kp LS(I)	&kp LS(O)	&kp LS(P)	&kp EQUAL	&kp ESC	&kp ENTER
 &kp LCTRL	&kp LS(A)	&kp LS(S)	&kp LS(D)	&kp LS(F)	&kp LS(G)	&kp LS(H)	&kp LS(J)	&kp LS(K)	&kp LS(L)	&kp BACKSPACE	&none	&kp DELETE	
 &mo 2	&kp LS(Z)	&kp LS(X)	&kp LS(C)	&kp LS(V)	&kp LS(B)	&kp LS(N)	&kp LS(M)	&kp COMMA	&mkp LCLK	&mkp RCLK	&none		&kp F22
@@ -54,7 +54,7 @@
 &none	&none 	&none 	&none	&none 	&none 	&none	&none 	&none 	&none	&none 	&none 	&none	&none
 &none	&none	&none	&none	&none	&none	&kp Y	&kp HOME	&kp UP_ARROW	&kp END	&none	&none	&none	&none
 &kp LCTRL	&kp LALT	&kp SPACE	&kp BACKSPACE &kp DELETE	&none	&none	&kp LEFT_ARROW	&kp DOWN_ARROW	&kp RIGHT_ARROW	&none	&none	&none
-&kp LGUI	&kp Z	&kp X	&kp C	&kp V	&none	&none	&none	&none	&mkp LCLK	&mkp RCLK	&none		&none
+&kp LGUI	&kp Z	&kp X	&kp C	&kp V	&none	&none	&none	&kp TILDE	&mkp LCLK	&mkp RCLK	&none		&none
 &none	&none	&none	&kp SEMI	&lt 3 SPACE			&kp RSHIFT	&kp ENTER	&none	&none	&none	&none	&none
             >;
         };
